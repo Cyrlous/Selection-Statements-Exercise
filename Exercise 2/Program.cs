@@ -7,7 +7,7 @@ class Program
         Console.WriteLine("What is your favorite school subject?");
         string favoriteSubject = Console.ReadLine();
 
-        switch (favoriteSubject)
+        switch (favoriteSubject.ToLower())
         {
             case "Math":
                 Console.WriteLine("Great choice.  Math is a very useful subject and has a wide variety of applications.");
